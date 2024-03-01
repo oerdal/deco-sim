@@ -1,0 +1,13 @@
+.feystone {
+  height: 5em;
+}
+
+.feystone:hover {
+  filter: drop-shadow(0 0 2em #56758665);
+  cursor: pointer;
+}
+
+.feystone.focused {
+  border: rgb(165, 229, 255) 2px solid;
+  border-radius: 10%;
+}
